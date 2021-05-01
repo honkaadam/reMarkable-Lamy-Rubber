@@ -55,7 +55,7 @@ case $currentVersion in
     "20210501" )
         rubber_file_name=lamy-rubber.tar
         version="20210501"
-        rubberhash="2126c161f3c8ea26c875c79da2868ceb513a4c89"
+        rubberhash="c3e6e42ba64cad4198a3807532baeb522c7b8f5d"
         echo "$rubber_file_name - $version"
         ;;
     * )
