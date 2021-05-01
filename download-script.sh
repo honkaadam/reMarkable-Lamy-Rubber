@@ -47,7 +47,7 @@ read yn
         [Nn]* )
             ;;
             * ) 
-            currentVersion="20210501"
+            $currentVersion="20210501"
             ;;
     esac
     exit 0
