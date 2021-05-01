@@ -73,7 +73,7 @@ fi
 rm -rf $workdir/*
 
 if [ -z "$SKIP_DOWNLOAD" ]; then
-    wget "https://github.com/honkaadam/reMarkable-Lamy-Rubber/raw/master/version/$version/$rubber_file_name" -O "$workdir/$rubber_file_name" || exit 1
+    wget "https://github.com/honkaadam/reMarkable-Lamy-Rubber/raw/main/version/$version/$rubber_file_name" -O "$workdir/$rubber_file_name" || exit 1
 fi
 
 hash=$(sha1sum $workdir/$rubber_file_name | cut -c 1-40)
