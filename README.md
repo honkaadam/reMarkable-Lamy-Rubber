@@ -11,3 +11,7 @@ Paste the following and press enter:
 ```
 sh -c "$(wget https://github.com/honkaadam/reMarkable-Lamy-Rubber/raw/main/download-script.sh -O-)"
 ```
+
+# Usage
+
+/home/lamyrubber/sbin/daemonize /home/lamyrubber/rubber.sh
