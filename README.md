@@ -1,5 +1,8 @@
 # reMarkable-Lamy-Rubber
 
+Important!
+Use at your own risk!
+
 # Install
 
 **Make sure the device has Internet connectivity i.e. Wifi is ON and connected**
