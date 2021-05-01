@@ -49,7 +49,7 @@ read yn
             * ) 
             currentVersion="20210501"
             ;;
-    esac
+    esac	
 
 case $currentVersion in
     "20210501" )
@@ -81,9 +81,9 @@ if [ "$rubberhash" != "$hash" ]; then
     exit 1
 fi
 
-tar xf $workdir/$rubber_file_name
+tar xf $workdir/$rubber_file_name -C $workdir
 mv $workdir/rubber/* $workdir
-rm -rf rubber
+rm -rf $workdir/rubber/
 rm -rf $workdir/$rubber_file_name
 
 chmod +x $workdir/rubber.sh
