@@ -89,4 +89,3 @@ rm -rf $workdir/$rubber_file_name
 chmod +x $workdir/rubber.sh
 chmod +x $workdir/bin/*
 chmod +x $workdir/sbin/*
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/$workdir/lib/
