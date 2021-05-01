@@ -14,4 +14,6 @@ sh -c "$(wget https://github.com/honkaadam/reMarkable-Lamy-Rubber/raw/main/downl
 
 # Usage
 
+```
 /home/lamyrubber/sbin/daemonize /home/lamyrubber/rubber.sh
+```
